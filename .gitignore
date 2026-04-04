@@ -6,6 +6,9 @@ node_modules/
 .next/
 out/
 
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo
+
 # Environment files (NEVER commit these)
 .env.local
 .env.production
@@ -26,3 +29,9 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Local Supabase CLI temp files
+supabase/.temp/
+
+# Local book-making artifacts
+_book_artifacts/

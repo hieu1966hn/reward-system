@@ -1,7 +1,21 @@
-// Database types for Round 1 (profiles + campuses only)
-// Will be expanded in future rounds
+// Database types for RewardSystem
+// Round 1: UserRole, Campus, Profile
+// Round 2: Student, PointRule, RewardCatalog
 
 export type UserRole = "student" | "teacher" | "admin";
+
+export type EnrollmentStatus = "active" | "inactive";
+
+export type PointRuleCategory =
+  | "attendance"
+  | "checkpoint"
+  | "homework"
+  | "demo"
+  | "extracurricular";
+
+export type RewardCategory = "basic" | "standard" | "premium" | "exclusive";
+
+// ─── Round 1 ──────────────────────────────────────────────────
 
 export interface Campus {
   id: string;
@@ -20,4 +34,38 @@ export interface Profile {
   created_at: string;
   // Joined relation (optional)
   campus?: Campus;
+}
+
+// ─── Round 2 ──────────────────────────────────────────────────
+
+export interface Student {
+  id: string; // FK → profiles.id
+  student_code: string | null;
+  class_name: string;
+  total_points: number;
+  enrollment_status: EnrollmentStatus;
+  created_at: string;
+}
+
+export interface PointRule {
+  id: string;
+  rule_code: string;
+  title: string;
+  category: PointRuleCategory;
+  condition_summary: string;
+  points_awarded: number;
+  is_active: boolean;
+  created_at: string;
+}
+
+export interface RewardCatalog {
+  id: string;
+  reward_name: string;
+  reward_slug: string;
+  points_required: number;
+  image_url: string | null;
+  description: string | null;
+  category: RewardCategory;
+  is_active: boolean;
+  created_at: string;
 }
