@@ -102,3 +102,117 @@ export async function createStudentAccount(formData: FormData) {
 
   return { success: true, message: "Thêm học viên thành công!" };
 }
+
+export async function getStudentsList(searchParams?: { search?: string, campus?: string, status?: string }) {
+  const supabase = await createServerClient();
+  // Check auth
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error("Unauthorized");
+
+  let query = supabase
+    .from("profiles")
+    .select(`
+      id,
+      full_name,
+      role,
+      campus_id,
+      campuses ( campus_name ),
+      students ( student_code, class_name, total_points, enrollment_status )
+    `)
+    .eq("role", "student")
+    .order("created_at", { ascending: false });
+
+  if (searchParams?.campus) {
+    query = query.eq("campus_id", searchParams.campus);
+  }
+
+  const { data, error } = await query;
+  if (error) throw error;
+
+  // Manual filtering for relation fields
+  let filteredData = data;
+  
+  if (searchParams?.status) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    filteredData = filteredData.filter(d => (d.students as any)?.enrollment_status === searchParams.status);
+  }
+
+  if (searchParams?.search) {
+    const q = searchParams.search.toLowerCase();
+    filteredData = filteredData.filter(d => 
+      d.full_name?.toLowerCase().includes(q) || 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (d.students as any)?.student_code?.toLowerCase().includes(q)
+    );
+  }
+
+  return filteredData;
+}
+
+export async function getStudentById(id: string) {
+  const supabase = await createServerClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error("Unauthorized");
+
+  const { data, error } = await supabase
+    .from("profiles")
+    .select(`
+      id,
+      full_name,
+      campus_id,
+      campuses ( campus_name ),
+      students ( student_code, class_name, total_points, enrollment_status )
+    `)
+    .eq("id", id)
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+export async function updateStudent(id: string, formData: FormData) {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+  if (!supabaseUrl || !supabaseServiceKey) {
+    return { error: "Thiếu cấu hình hệ thống: SUPABASE_SERVICE_ROLE_KEY" };
+  }
+
+  const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey, {
+    auth: { autoRefreshToken: false, persistSession: false },
+  });
+
+  const normalSupabase = await createServerClient();
+  const { data: { user } } = await normalSupabase.auth.getUser();
+  if (!user) return { error: "Vui lòng đăng nhập" };
+
+  const { data: profile } = await normalSupabase.from("profiles").select("role").eq("id", user.id).single();
+  if (profile?.role !== "admin" && profile?.role !== "teacher") {
+    return { error: "Bạn không có quyền thực hiện thao tác này" };
+  }
+
+  const fullName = formData.get("full_name")?.toString().trim();
+  const className = formData.get("class_name")?.toString().trim();
+  const campusId = formData.get("campus_id")?.toString();
+  const status = formData.get("enrollment_status")?.toString();
+
+  if (!fullName || !className || !campusId || !status) {
+    return { error: "Vui lòng điền đầy đủ thông tin" };
+  }
+
+  const { error: pErr } = await supabaseAdmin
+    .from("profiles")
+    .update({ full_name: fullName, campus_id: campusId })
+    .eq("id", id);
+    
+  if (pErr) return { error: "Lỗi cập nhật profile: " + pErr.message };
+
+  const { error: sErr } = await supabaseAdmin
+    .from("students")
+    .update({ class_name: className, enrollment_status: status })
+    .eq("id", id);
+
+  if (sErr) return { error: "Lỗi cập nhật student: " + sErr.message };
+
+  return { success: true };
+}
