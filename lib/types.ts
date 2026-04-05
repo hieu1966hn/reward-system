@@ -87,9 +87,9 @@ export interface PointTransaction {
   created_at: string;
 }
 
-// ─── Round 5 ──────────────────────────────────────────────────
+// ─── Round 5 & 6 ──────────────────────────────────────────────────
 
-export type RedemptionStatus = "pending" | "approved" | "rejected" | "cancelled";
+export type RedemptionStatus = "pending" | "approved" | "rejected" | "cancelled" | "fulfilled";
 
 export interface Redemption {
   id: string;
@@ -101,5 +101,19 @@ export interface Redemption {
   updated_at: string;
   // Joined relation (optional)
   reward?: RewardCatalog;
-  student?: Profile;
+  student?: Profile; // Or Student (with point stats)
+}
+
+// ─── Round 6 ──────────────────────────────────────────────────
+
+export interface Inventory {
+  id: string;
+  reward_id: string;
+  campus_id: string;
+  stock_quantity: number;
+  created_at: string;
+  updated_at: string;
+  // relations
+  reward?: RewardCatalog;
+  campus?: Campus;
 }

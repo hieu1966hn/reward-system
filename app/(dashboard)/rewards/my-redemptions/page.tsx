@@ -15,6 +15,7 @@ export const metadata = {
 const STATUS_MAP: Record<RedemptionStatus, { label: string; color: string }> = {
   pending: { label: "Đang chờ duyệt", color: "bg-amber-100 text-amber-700 border-amber-200" },
   approved: { label: "Đã duyệt", color: "bg-emerald-100 text-emerald-700 border-emerald-200" },
+  fulfilled: { label: "Đã phát quà", color: "bg-blue-100 text-blue-700 border-blue-200" },
   rejected: { label: "Đã từ chối", color: "bg-rose-100 text-rose-700 border-rose-200" },
   cancelled: { label: "Đã huỷ", color: "bg-slate-100 text-slate-700 border-slate-200" },
 };

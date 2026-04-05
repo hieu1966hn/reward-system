@@ -75,7 +75,7 @@ export default function RewardRedeemButton({ reward, isEnough, currentPoints }: 
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Xác nhận đổi quà</h3>
               <p className="text-slate-600 mb-6 flex flex-col gap-2 text-sm text-center items-start">
-                <span>Bạn đang gửi yêu cầu đổi phần quà <strong>"{reward.reward_name}"</strong>.</span>
+                <span>Bạn đang gửi yêu cầu đổi phần quà <strong>&quot;{reward.reward_name}&quot;</strong>.</span>
                 <span className="bg-slate-50 border border-slate-200 rounded-lg p-3 w-full flex justify-between items-center text-left">
                   <span>Điểm hiện có</span>
                   <strong className="text-indigo-600 text-base">{currentPoints}</strong>
