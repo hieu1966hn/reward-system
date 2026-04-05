@@ -1,6 +1,7 @@
 // Database types for RewardSystem
 // Round 1: UserRole, Campus, Profile
 // Round 2: Student, PointRule, RewardCatalog
+// Round 3: PointTransaction
 
 export type UserRole = "student" | "teacher" | "admin";
 
@@ -14,6 +15,8 @@ export type PointRuleCategory =
   | "extracurricular";
 
 export type RewardCategory = "basic" | "standard" | "premium" | "exclusive";
+
+export type PointTransactionSource = "rule" | "manual" | "redemption";
 
 // ─── Round 1 ──────────────────────────────────────────────────
 
@@ -67,5 +70,19 @@ export interface RewardCatalog {
   description: string | null;
   category: RewardCategory;
   is_active: boolean;
+  created_at: string;
+}
+
+// ─── Round 3 ──────────────────────────────────────────────────
+
+export interface PointTransaction {
+  id: string;
+  student_id: string;
+  rule_id: string | null;
+  points_delta: number;
+  source_type: PointTransactionSource;
+  event_key: string;
+  note: string | null;
+  created_by: string;
   created_at: string;
 }
