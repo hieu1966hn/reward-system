@@ -24,6 +24,11 @@ export interface Campus {
   id: string;
   campus_name: string;
   region: string;
+  address?: string | null;
+  city?: string | null;
+  district?: string | null;
+  hotline?: string | null;
+  map_link?: string | null;
   is_active: boolean;
   created_at: string;
 }
