@@ -86,3 +86,20 @@ export interface PointTransaction {
   created_by: string;
   created_at: string;
 }
+
+// ─── Round 5 ──────────────────────────────────────────────────
+
+export type RedemptionStatus = "pending" | "approved" | "rejected" | "cancelled";
+
+export interface Redemption {
+  id: string;
+  student_id: string;
+  reward_id: string;
+  points_cost: number;
+  status: RedemptionStatus;
+  created_at: string;
+  updated_at: string;
+  // Joined relation (optional)
+  reward?: RewardCatalog;
+  student?: Profile;
+}

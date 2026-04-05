@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { RewardCatalog, UserRole } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
+import RewardRedeemButton from "@/components/RewardRedeemButton";
 
 export const dynamic = "force-dynamic";
 
@@ -136,7 +137,7 @@ export default async function RewardDetailPage(props: { params: Promise<{ id: st
                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
                         </svg>
-                        Tuyệt vời! Bạn đã đủ điểm đổi. (Tính năng đổi quà sắp ra mắt)
+                        Tuyệt vời! Bạn đã đủ điểm đổi.
                       </span>
                     ) : (
                       <span className="text-slate-500 flex items-center gap-1.5">
@@ -149,15 +150,7 @@ export default async function RewardDetailPage(props: { params: Promise<{ id: st
                   </div>
                 </div>
 
-                <button
-                  disabled
-                  className="w-full py-3 px-4 bg-slate-900 text-white rounded-xl font-medium cursor-not-allowed opacity-50 flex justify-center items-center gap-2"
-                >
-                  <svg className="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                  </svg>
-                  Tính năng đổi quà sắp mở ở Vòng 5
-                </button>
+                <RewardRedeemButton reward={r} isEnough={isEnough} currentPoints={currentPoints} />
               </div>
             )}
 
