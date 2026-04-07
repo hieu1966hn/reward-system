@@ -35,3 +35,15 @@ supabase/.temp/
 
 # Local book-making artifacts
 _book_artifacts/
+*.zip
+
+# Supabase backups
+supabase/backups/
+
+# Local testing and scratch files
+scripts/tests/
+scripts/test_*.js
+_test_*.js
+*.log
+*.tmp
+/tmp/

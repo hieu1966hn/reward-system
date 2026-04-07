@@ -1,6 +1,19 @@
-require('dotenv').config({ path: '../.env.local' });
-const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
+const path = require('path');
+
+// Đọc thủ công file .env.local để lấy biến môi trường mà không cần gói 'dotenv'
+const envPath = path.join(__dirname, '../.env.local');
+if (fs.existsSync(envPath)) {
+  const envConfig = fs.readFileSync(envPath, 'utf8');
+  envConfig.split('\n').forEach(line => {
+    const match = line.match(/^([^#=]+)=(.*)$/);
+    if (match) {
+      process.env[match[1].trim()] = match[2].trim().replace(/^"|"$/g, '');
+    }
+  });
+}
+
+const { createClient } = require('@supabase/supabase-js');
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;

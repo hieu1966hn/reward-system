@@ -54,7 +54,7 @@ export default function StudentsFilter({
             id="search"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="block w-full rounded-xl border-0 py-2.5 pl-10 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+            className="input pl-10"
             placeholder="Tìm theo tên, email, mã học viên... (Enter để tìm)"
           />
         </div>
@@ -64,7 +64,7 @@ export default function StudentsFilter({
         <select
           value={searchParams.campus || ""}
           onChange={(e) => handleSelectChange("campus", e.target.value)}
-          className="block w-full sm:w-48 rounded-xl border-0 py-2.5 pl-3 pr-10 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+          className="input sm:w-48"
         >
           <option value="">Tất cả cơ sở</option>
           {campuses.map((c) => (
@@ -75,7 +75,7 @@ export default function StudentsFilter({
         <select
           value={searchParams.status || ""}
           onChange={(e) => handleSelectChange("status", e.target.value)}
-          className="block w-full sm:w-40 rounded-xl border-0 py-2.5 pl-3 pr-10 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+          className="input sm:w-40"
         >
           <option value="">Tất cả trạng thái</option>
           <option value="active">Đang học</option>

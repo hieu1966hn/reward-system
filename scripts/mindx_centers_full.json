@@ -1,0 +1,432 @@
+[
+  {
+    "name": "MindX Lái Thiêu (Thuận An)",
+    "address": "Tầng 2, số 40 Lái Thiêu 1, phường Lái Thiêu, Thuận An, TP HCM",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "028 777 17789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX - Vinhome Ocean Park 1",
+    "address": "Lô thương mại số HD03 - SP.BH90, Vinhome Ocean Park 1, xã Gia Lâm, Hà Nội (Địa chỉ cũ: Tầng 2, số 90 Hải Đăng 03 - Vinhome Ocean Park 1, Gia Lâm, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 383 Nguyễn Duy Trinh",
+    "address": "Tầng trệt và tầng lửng L.01 khối đế, khu nhà ở LA ASTORIA, số 383 đường Nguyễn Duy Trinh, Phường Bình Trưng, TP Hồ Chí Minh (Địa chỉ cũ: Tầng trệt và tầng lửng L.01 khối đế khu nhà ở LA ASTORIA, 383 Nguyễn Duy Trinh, Phường Bình Trưng Tây, TP Thủ Đức, TP Hồ Chí Minh)",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Phú Thọ",
+    "address": "Tầng 2, TTTM Happy Land, số 1606A đường Hùng Vương, Phường Việt Trì, Tỉnh Phú Thọ (Địa chỉ cũ: Tầng 2, Tòa nhà Happy Land, 1606A đường Hùng Vương, tổ 19, khu 11, Phường Gia Cẩm, Thành phố Việt Trì, tỉnh Phú Thọ",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Vĩnh Phúc",
+    "address": "Tầng 2, Tòa nhà Viettel Vĩnh Phúc, Lô S1, Khu đô thị chùa Hà Tiên, P. Vĩnh Phúc, Tỉnh Phú Thọ (Địa chỉ cũ: Tầng 2, Tòa nhà Viettel Vĩnh Phúc, 01 Trần Phú, Định Trung, Vĩnh Yên, Vĩnh Phúc)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Thái Nguyên",
+    "address": "Tầng 3, Tòa nhà Viettel Thái Nguyên, Số 04 Hoàng Văn Thụ, Phường Phan Đình Phùng, Thái Nguyên (Địa chỉ cũ: Tầng 3, Tòa nhà Viettel, Số 4 Đường Hoàng Văn Thụ, Túc Duyên, Thành phố Thái Nguyên)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Thanh Hóa",
+    "address": "Tầng 3, Tòa nhà Viettel Thanh Hóa, Nam Đại Lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa (Địa chỉ cũ: Tòa nhà Viettel Thanh Hóa Nam Đại lộ Lê Lợi, Đông Hương, Thanh Hoá",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Cần Thơ",
+    "address": "Tầng 01, 153Q Trần Hưng Đạo, Phường Ninh Kiều, TP. Cần Thơ (Địa chỉ cũ: 153Q Trần Hưng Đạo, P.An Phú, Quận Ninh Kiều, Cần Thơ)",
+    "region": "Khác",
+    "district": "Quận Ninh Kiều",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Nguyễn An Ninh (Dĩ An)",
+    "address": "Tầng 3, 76 Nguyễn An Ninh, Khu phố Nhị Đồng 2, Phường Dĩ An, TP Hồ Chí Minh (Địa chỉ cũ: 76 Nguyễn An Ninh, P. Dĩ An, TP. Dĩ An, Bình Dương)",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Đà Nẵng",
+    "address": "Tầng 5, Khu A1, Tòa nhà Vĩnh Trung Plaza, số 255 - 257 Hùng Vương, Phường Thanh Khê, TP Đà Nẵng (Địa chỉ cũ: Tầng 5, TTTM Go!, 255-257 Hùng Vương, Quận Thanh Khê, Đà Nẵng",
+    "region": "Khác",
+    "district": "Quận Thanh Khê",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Lê Hồng Phong (Vũng Tàu)",
+    "address": "Tầng 4, toà nhà Viettel Vũng Tàu, 205A Lê Hồng Phong, Phường Tam Thắng, TP Hồ Chí Minh (Địa chỉ cũ: Lầu 4, Toà nhà Viettel, 205A Lê Hồng Phong, Phường 8, Vũng Tàu)",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Hải Phòng",
+    "address": "Tầng 2, toà nhà Bạch Đằng, 268 Trần Nguyên Hãn, Phường An Biên, Hải Phòng (Địa chỉ cũ: Tầng 2, toà nhà Bạch Đằng, 268 Trần Nguyên Hãn, P. Niệm Nghĩa, Quận Lê Chân, Hải Phòng)",
+    "region": "Khác",
+    "district": "Quận Lê Chân",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Bắc Ninh",
+    "address": "Tầng 4, toà nhà Dương Tuấn, Đường Lê Thái Tổ, Phường Võ Cường, Bắc Ninh (Địa chỉ cũ: Tầng 4L, Toà nhà Dương Tuấn, 09 Lê Thái Tổ, Phường Võ Cường, Bắc Ninh)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 230 Đại Lộ Bình Dương",
+    "address": "Tầng 2, toà nhà Becamex Tower - 230 Đại Lộ Bình Dương, Phường Phú Lợi, TP HCM (Địa chỉ cũ: Lầu 2, Toà nhà Becamex Bình Dương - 230 Đại Lộ Bình Dương, P. Phú Hoà, TP. Thủ Dầu Một, Bình Dương)",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Nghệ An",
+    "address": "Tầng 2, toà nhà Viettel Nghệ An, Số 67 Đại Lộ Lê Nin, Phường Vinh Phú, Nghệ An (Địa chỉ cũ: Tầng 2, Toà nhà Viettel, 67 Đại Lộ Lê Nin, Phường Hà Huy Tập, Vinh, Nghệ An)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Đồng Nai",
+    "address": "Tầng 2, Tòa nhà Nguyễn Kim, 253 Phạm Văn Thuận, Phường Tam Hiệp, Đồng Nai (Địa chỉ cũ: Lầu 2, Toà nhà Nguyễn Kim, 253 Phạm Văn Thuận, Phường Tân Mai, Biên Hòa, Đồng Nai)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 99 Lê Văn Việt",
+    "address": "Căn A23, A24, A25, Khu A, dự án Saigon Villas Hill, 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP HCM (Địa chỉ cũ: Căn A23-A24-A25, khu A, dự án Saigon Villas Hill, 99 Lê Văn Việt, P. Tăng Nhơn Phú, Q. Thủ Đức, TP. Thủ Đức, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 120-122 Phạm Văn Đồng",
+    "address": "Lầu 2, 120-122 Kha Vạn Cân, Phường Hiệp Bình, TP HCM (Địa chỉ cũ: Lầu 2, 120-122 Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, TP Thủ Đức, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Thủ Đức",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 322 Tây Thạnh",
+    "address": "Tầng 4 (Lầu 3), Toà nhà số 322 Tây Thạnh, Phường Tây Thạnh, TP HCM (Địa chỉ cũ: Lầu 3 Toà nhà Đông Nam, 322 Tây Thạnh (ngã giao Tây Thạnh - Lê Trọng Tấn), Quận Tân Phú, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Tân Phú",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 618 Đường 3/2",
+    "address": "Tầng trệt và lầu 1, toà nhà số 614-616-618 đường Ba Tháng Hai, Phường Diên Hồng, TP HCM (Địa chỉ cũ: Lầu trệt và lầu 2, 618 đường 3/2, Phường 14, Quận 10, TP HCM",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 10",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Hàm Nghi",
+    "address": "Tầng 1 và tầng 2, toà A3 Vinhomes Gardenia Hàm Nghi, Phường Từ Liêm, Hà Nội (Địa chỉ cũ: Tầng 1 và tầng 2, Tòa A3 Vinhomes Gardenia Hàm Nghi, Quận Nam Từ Liêm, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Nam Từ Liêm",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 06 Nguyễn Hữu Thọ",
+    "address": "Tầng 5, Toà Hudland Tower, Lô A-CC7 Khu dịch vụ tổng hợp Hồ Linh Đàm, đường Nguyễn Hữu Thọ, Phường Định Công, Hà Nội (Địa chỉ cũ: Tầng 5, Toà nhà Hudland, 06 Nguyễn Hữu Thọ, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội(",
+    "region": "Hà Nội",
+    "district": "Quận Hoàng Mai",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 98 Nguyễn Văn Cừ",
+    "address": "Tầng 2, Tòa nhà HTK, Số 92-94-96-98 Nguyễn Văn Cừ, Phường Bồ Đề, Hà Nội. (Địa chỉ cũ: Tầng 2, 98 Nguyễn Văn Cừ, Phường Bồ Đề, Quận Long Biên, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Long Biên",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 107 Nguyễn Phong Sắc",
+    "address": "Tầng 6, Số 107 Nguyễn Phong Sắc, Phường Cầu Giấy, Hà Nội (Địa chỉ cũ: Tầng 6, Tòa AZ Lâm Viên, 107 Nguyễn Phong Sắc, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Cầu Giấy",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 102 Trần Phú",
+    "address": "Tầng 3, Toà nhà Cao cấp Westa, số 102 Trần Phú, Phường Hà Đông, Hà Nội (Địa chỉ cũ: Tầng 3, Tòa nhà Cao cấp Westa, số 102 Trần Phú, Phường Mộ Lao, Quận Hà Đông, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Hà Đông",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 01 Trường Chinh",
+    "address": "Tầng 2, Toà nhà Nhà Sách Nhân Văn, số 1 Trường Chinh, Phường Bảy Hiền, TP HCM (Địa chỉ cũ: Lầu 2, nhà Sách Nhân Văn, 01 Trường Chinh, Phường 11, Quận Tân Bình, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Tân Bình",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 29T1 Hoàng Đạo Thúy",
+    "address": "Tầng 2, Toà nhà 29T1 Hoàng Đạo Thuý, Phường Yên Hoà, Hà Nội (Địa chỉ cũ: Tầng 2, 29T1 Hoàng Đạo Thuý, Phường Trung Hòa, Quận Cầu Giấy, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Cầu Giấy",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 505 Minh Khai",
+    "address": "Tầng 4, Số 505 Minh Khai, Phường Vĩnh Tuy, Hà Nội (Địa chỉ cũ: Tầng 4, TTTM V+, 505 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Hai Bà Trưng",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 01 Tô Ký",
+    "address": "Tầng 4, Công Viên Phần Mềm Quang Trung, số 01 Tô Ký, phường Trung Mỹ Tây, TP HCM (Địa chỉ cũ: Lầu 4, Toà nhà Genpacific (Cổng vào Công Viên Phần Mềm Quang Trung), 01 Tô Ký, phường Tân Chánh Hiệp, Quận 12, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 12",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 01 Quang Trung",
+    "address": "Lầu 1, số 1 Quang Trung, phường 10, Quận Gò Vấp (ngã 6 Gò Vấp), TP HCM",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Gò Vấp (ngã 6 Gò Vấp)",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 414 Lũy Bán Bích",
+    "address": "Tầng 3, tầng 4, 414 Luỹ Bán Bích, Phường Tân Phú, , TP HCM (Địa chỉ cũ: Lầu 3 và 4, 414 Luỹ Bán Bích, Phường Hòa Thạnh, Quận Tân Phú, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Tân Phú",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 165-167 Nguyễn Thị Thập",
+    "address": "số 165-167 Nguyễn Thị Thập, Khu Đô Thị Mới Him Lam, Phường Tân Hưng, TP HCM (Địa chỉ cũ: 165-167 Nguyễn Thị Thập, KĐT Him Lam (Đối diện khu vui chơi Vietopia), Phường Tân Hưng, Quận 7, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 261-263 Phan Xích Long",
+    "address": "Tầng 8, Tòa nhà 261-263 Phan Xích Long, Phường Cầu Kiệu, TP HCM (Địa chỉ cũ: Lầu 8, Tòa nhà Nam Giao, 261-263 Phan Xích Long, Phường 2, Quận Phú Nhuận, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Phú Nhuận",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Victoria Văn Phú",
+    "address": "Tầng 2, TTTM Victoria Food N Shop - Tòa nhà The Van Phu Victoria, CT9 - Khu đô thị mới Văn Phú, Phường Dương Nội, Hà Nội. (Địa chỉ cũ: Tầng 2, Tòa V1 Văn Phú Victoria, KĐT Văn Phú, Phường Phú La, Quận Hà Đông)",
+    "region": "Hà Nội",
+    "district": "Quận Hà Đông)",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 174 Tên Lửa",
+    "address": "Số 174-176 đường số 1, Phường An Lạc, TP HCM. (Địa chỉ cũ: 174 đường số 1 KĐT Tên Lửa, Phường Bình Trị Đông B, Quận Bình Tân, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Bình Tân",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 490 Phạm Thái Bường",
+    "address": "Số 490 Đường Phạm Thái Bường, Phường Tân Hưng, TP HCM (Địa chỉ cũ: Số 490 Phạm Thái Bường, KĐT Phú Mỹ Hưng, Phường Tân Phong, Quận 7, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 7",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 343 Phạm Ngũ Lão",
+    "address": "Tầng 9, Tòa nhà International Plaza, Số 343 Phạm Ngũ Lão, Phường Bến Thành, TP HCM (Địa chỉ cũ: Lầu 9, Tòa nhà International Plaza, Số 343 Phạm Ngũ Lão, Quận 1, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 1",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 39 Hải Thượng Lãn Ông",
+    "address": "Tầng trệt và lầu 1, Tòa nhà số 39 Hải Thượng Lãn Ông, Phường Chợ Lớn, TP Hồ Chí Minh (Địa chỉ cũ: Tầng trệt và lẩu 1, Tòa nhà số 39 Hải Thượng Lãn Ông, Phường 11, Quận 5, TP Hồ Chí Minh",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 5",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Nguyễn Xí",
+    "address": "Tầng trệt và Tầng 1, Số 223 Nguyễn Xí, Phường Bình Lợi Trung, TP HCM (Địa chỉ cũ: Lầu trệt và lầu 1, 223 Nguyễn Xí, Phường 13, Quận Bình Thạnh, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Bình Thạnh",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX Quảng Ninh",
+    "address": "Tầng 2, số 70 Nguyễn Văn Cừ, Phường Hạ Long, Quảng Ninh (Địa chỉ cũ: Tầng 2, Toà nhà Viettel, 70 Nguyễn Văn Cừ, Hạ Long, Quảng Ninh)",
+    "region": "Khác",
+    "district": "",
+    "city": "",
+    "hotline": "02477731666",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 71 Nguyễn Chí Thanh (Trụ sở chính)",
+    "address": "Tầng 5, Số 71 Nguyễn Chí Thanh, Phường Giảng Võ, Hà Nội (Địa chỉ cũ: Tầng 5, 71 Nguyễn Chí Thanh, Phường Láng Hạ, Quận Đống Đa, Hà Nội)",
+    "region": "Hà Nội",
+    "district": "Quận Đống Đa",
+    "city": "Hà Nội",
+    "hotline": "02477717888",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 672A28 Phan Văn Trị",
+    "address": "Tầng 1, tầng 3 và tầng 5, 672A28 Phan Văn Trị, Phường Gò Vấp, TP HCM (Địa chỉ cũ: Số 672A28 Phan Văn Trị, Phường 10, Quận Gò Vấp, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  },
+  {
+    "name": "MindX 02 Song Hành",
+    "address": "Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP HCM (Địa chỉ cũ: Lầu 2, Số 2 Song Hành, Phường An Phú, Quận 2, TP HCM)",
+    "region": "Hồ Chí Minh",
+    "district": "Quận 2",
+    "city": "Hồ Chí Minh",
+    "hotline": "02877717789",
+    "map_link": "",
+    "is_active": true
+  }
+]

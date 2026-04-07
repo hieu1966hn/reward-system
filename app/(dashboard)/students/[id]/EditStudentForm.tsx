@@ -80,7 +80,7 @@ export default function EditStudentForm({
         </div>
 
         <div className="sm:col-span-2">
-          <label htmlFor="student_code" className="block text-sm font-medium leading-6 text-gray-900">
+          <label htmlFor="student_code" className="label">
             Mã Học Viên (Chỉ định, không sửa)
           </label>
           <div className="mt-2">
@@ -91,13 +91,13 @@ export default function EditStudentForm({
               readOnly
               disabled
               defaultValue={initialData?.students?.student_code}
-              className="block w-full rounded-xl border-0 py-3 text-gray-500 shadow-sm ring-1 ring-inset ring-gray-200 bg-gray-50 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6 cursor-not-allowed uppercase"
+              className="input bg-slate-50 text-slate-500 cursor-not-allowed uppercase"
             />
           </div>
         </div>
 
         <div className="sm:col-span-2">
-          <label htmlFor="full_name" className="block text-sm font-medium leading-6 text-gray-900">
+          <label htmlFor="full_name" className="label">
             Họ và Tên
           </label>
           <div className="mt-2">
@@ -107,13 +107,13 @@ export default function EditStudentForm({
               id="full_name"
               required
               defaultValue={initialData?.full_name}
-              className="block w-full rounded-xl border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+              className="input"
             />
           </div>
         </div>
 
         <div className="sm:col-span-1">
-          <label htmlFor="class_name" className="block text-sm font-medium leading-6 text-gray-900">
+          <label htmlFor="class_name" className="label">
             Tên Lớp (Có thể sửa đổi khi chuyển lớp)
           </label>
           <div className="mt-2">
@@ -123,13 +123,13 @@ export default function EditStudentForm({
               id="class_name"
               required
               defaultValue={initialData?.students?.class_name}
-              className="block w-full rounded-xl border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+              className="input"
             />
           </div>
         </div>
 
         <div className="sm:col-span-1">
-          <label htmlFor="campus_id" className="block text-sm font-medium leading-6 text-gray-900">
+          <label htmlFor="campus_id" className="label">
             Cơ sở đăng ký
           </label>
           <div className="mt-2">
@@ -138,7 +138,7 @@ export default function EditStudentForm({
               name="campus_id"
               required
               defaultValue={initialData?.campus_id}
-              className="block w-full rounded-xl border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+              className="input bg-white"
             >
               <option value="">-- Chọn cơ sở --</option>
               {campuses.map((c) => (
@@ -149,17 +149,17 @@ export default function EditStudentForm({
         </div>
         
         <div className="sm:col-span-2">
-          <label htmlFor="enrollment_status" className="block text-sm font-medium leading-6 text-gray-900">
+          <label htmlFor="enrollment_status" className="label">
             Trạng thái hoạt động (Deactivation)
           </label>
-          <p className="text-xs text-gray-500 mb-2">Thay vì xoá học viên (ảnh hưởng dữ liệu điểm số cũ), hãy đổi trạng thái sang Đã nghỉ.</p>
+          <p className="text-xs text-slate-500 mb-2.5">Thay vì xoá học viên (ảnh hưởng dữ liệu điểm số cũ), hãy đổi trạng thái sang Đã nghỉ.</p>
           <div className="mt-2">
             <select
               id="enrollment_status"
               name="enrollment_status"
               required
               defaultValue={initialData?.students?.enrollment_status}
-              className="block w-full rounded-xl border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6"
+              className="input bg-white"
             >
               <option value="active">Active - Đang học</option>
               <option value="inactive">Inactive - Đã nghỉ</option>
